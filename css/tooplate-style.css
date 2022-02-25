@@ -226,7 +226,7 @@ p:last-child { margin-bottom: 0; }
 
 
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 399px) {
 
     .grid{
         display: inline;
@@ -257,13 +257,15 @@ p:last-child { margin-bottom: 0; }
         background-color: rgba(0,0,0,0.78);
         height: 225%;
     }
-    /*
-    
+
+}
+
+@media (max-width: 1115px){
     .grid__item{
-        width: 60px;
-        height: 60px;
+        width: 120px;
+        height: 120px;
         margin: 2px;
-        font-size: 6pt;
+        font-size: 10pt;
     }
 
     .row{
@@ -271,40 +273,68 @@ p:last-child { margin-bottom: 0; }
         margin-left: -15px;
     }
 
+    .product__bg{
+        width: 120px;
+        height: 120px;
+    }
+
+    .tm-nav-link{
+        height: 120px;
+        width: 120px;
+    }
+
     .tm-wrap{
         padding: 0 5px 0 5px;
     }
 
     .product{
-        width: 60px;
-        height: 60px;
+        width: 120px;
+        height: 120px;
     }
     #Imp{
-        font-size: 5pt;
+        font-size: 8pt;
     }
-    
+   
 }
 
-@media (min-width: 767px) and (max-width: 991px), (max-width: 440px) {
-    .tm-nav-link {
-        width: 60px;
-        height: 60px;
+@media (max-width: 757px){
+    .grid__item{
+        width: 90px;
+        height: 90px;
+        margin: 2px;
+        font-size: 8pt;
     }
+
+    .row{
+        margin-right: -30px;
+        margin-left: -15px;
+    }
+
+    .product__bg{
+        width: 90px;
+        height: 90px;
+    }
+
+    .tm-nav-link{
+        height: 90px;
+        width: 90px;
+    }
+
+    .tm-wrap{
+        padding: 0 5px 0 5px;
+    }
+
+    .product{
+        width: 90px;
+        height: 90px;
+    }
+    #Imp{
+        font-size: 6pt;
+    }
+   
 }
-*/
-@media (max-width: 767px) {
-    .container { max-width: 450px; }
-    .content {
-        margin-left: auto;
-        margin-right: 0;
-    }
-    .tm-nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-    }
-    .grid { justify-content: flex-end; }
-    .tm-col-email { padding-left: 15px; }
-    .tm-reverse-sm { flex-direction: column-reverse; }
-}
+
+
+
+
 
