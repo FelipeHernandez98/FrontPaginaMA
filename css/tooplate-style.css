@@ -61,7 +61,7 @@ p {
 
 #fondo:before {
 	content:'';
-	position: absolute;
+    position: absolute;
     top: 0;
 	bottom: 0;
 	left: 0;
@@ -234,8 +234,8 @@ p:last-child { margin-bottom: 0; }
 
     .tm-main-content{
         display: inline;
-        position:inherit;
-        padding: 0 15% 0 23%;
+        position: absolute;
+        padding: 10px 15% 0 23%;
     }
 
     .product{
@@ -246,6 +246,16 @@ p:last-child { margin-bottom: 0; }
     
         background: #154f99;
         color: #a9a9a9;
+    }
+
+    #fondo:before {
+        content:'';
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.78);
+        height: 225%;
     }
     /*
     
